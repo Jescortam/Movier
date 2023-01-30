@@ -1,0 +1,85 @@
+body {
+    background-color:rgb(100,100,100);
+    overflow: hidden;
+    max-width:100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#title {
+    position:relative;
+    top:60px;
+    margin:auto;
+    width:750px;
+    padding:20px;
+    text-align:center;
+    font-size:50px;
+    font-weight:bold;
+    border-radius:10px;
+    background-color:white;
+    color:rgb(0,0,100);
+    border-style:solid;
+    border-width:1px 3px 4px 1px;
+    border-color:black;
+}
+#cardbox {
+    position:relative;
+    top:100px;
+    margin:0px 41px;
+}
+#cardbox div {
+    background-color:white;
+    float:left;
+    margin:0px 25px;
+}
+#cardbox div img {
+    border-style:solid;
+    border-color:rgb(80,80,80);
+    border-width:0px 0px 5px 0px;
+}
+.cardlink {
+    text-align:center;
+    margin:0px;
+    padding:20px 0px;
+    font-size:35px;
+    font-weight:bold;
+    text-align:center;
+}
+.cardlink a {
+    text-decoration:none;
+    color:black;
+}
+.cardlink a:hover {
+    text-decoration:underline;
+}
+#pelcard {
+    width:500px;
+    height:400px;
+    border-style:solid;
+    border-width:2px 4px 6px 2px;
+    border-color:rgb(50,50,50);
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+#pelcard div {
+    width:450px;
+}
+#pelcard img {
+    height:300px;
+}
+.bcard {
+    position:relative;
+    top:50px;
+    width:300px;
+    height:300px;
+    border-style:solid;
+    border-width:2px 4px 6px 2px;
+    border-color:rgb(50,50,50);
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.bcard div {
+    width:240px;
+    padding-left:3px;
+}
+.bcard img {
+    height:200px;
+}

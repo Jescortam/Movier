@@ -1,0 +1,132 @@
+body {
+    overflow-x:hidden;
+    background-color:rgb(160, 160, 221);
+    font-family:sans-serif;
+    position:relative;
+    left:220px;
+    top:120px;
+    max-width:100%;
+    margin:0px;
+}
+#header {
+    background-color:rgb(255,255,255);
+    font-family:"Lucida Console", Courier, monospace;
+    font-size:80px;
+    color:rgb(30, 16, 90);
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:80px;
+    margin:0px;
+    border-style:solid;
+    border-color:black;
+    border-width:0px 0px 5px 0px;
+    padding:20px;
+}
+#sidebar {
+    background-color:rgb(210, 210, 210);
+    text-align:left;
+    float:left;
+    position:fixed;
+    top:121px;
+    left:0px;
+    width:220px;
+    height:99%;
+    border-style:solid;
+    border-color:black;
+    border-width:5px 1px 0px 0px;
+    padding:0px;
+}
+#sidebar div {
+    font-size:26px;
+    display:block;
+    border-style:solid;
+    border-color:rgb(150,150,150);
+    border-width:0px 0px 1px 0px;
+    padding:15px 0px 15px 0px;
+}
+#sidebar div:hover {
+    background-color:rgb(150,150,150);
+}
+#sidebar div img {
+    background-color:transparent;
+    float:left;
+    width:28px;
+    margin:0px 16px 8px 20px;
+}
+#sidebar div a {
+    color:black;
+    text-decoration:none;
+}
+#sidebar div a span {
+    position:absolute;
+    width:100%;
+}
+#active {
+    background-color:rgb(120,120,120);
+}
+.pelbox {
+    float:left;
+    column-count:2;
+    column-rule-color:rgb(220,210,200);
+    column-rule-style: solid;
+    column-rule-width:2px;
+    background-color:rgb(240,230,210);
+    border-style:solid;
+    border-color:rgb(0,0,50);
+    border-width:3px;
+    border-radius:10px;
+    width:500px;
+    height:275px;
+    padding:20px 20px;
+    margin:10px;
+}
+.pelbox img {
+    width:150px;
+    height:225px;
+    border-style:solid;
+    border-color:black;
+    border-width:15px;
+    padding:10px;
+    margin:0px 15px;
+    background-color:white;
+}
+.pelbox div {
+    margin:0px 10px;
+}
+.tilink {
+    height:50px;
+    padding:0px 0px 10px 0px;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color:rgb(220,210,200);
+}
+.tilink a {
+    font-weight:bold;
+    color:rgb(0,0,50);
+    font-size:20px;
+}
+.data ul {
+    list-style-type: none;
+    margin:10px 0px 0px 0px;
+    padding:0px;
+    font-size:14px;
+}
+.data ul span {
+    font-weight:bold;
+}
+.data ul li {
+    margin:0px 0px 10px 0px;
+}
+#footer {
+    background-color:rgb(0,0,50);
+    float:left;
+    text-align:left;
+    color:white;
+    position:relative;
+    top:20px;
+    left:0px;
+    width:1000%;
+    padding:20px 20px;
+}
